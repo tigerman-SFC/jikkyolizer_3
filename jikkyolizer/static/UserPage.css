@@ -1,0 +1,90 @@
+#main{
+    width:1030px;
+    margin:10px auto;
+}
+
+.target{
+    width:150px;
+}
+
+.used_at{
+    width:100px;
+}
+
+.departure_line{
+    width:150px;
+}
+
+.departure_station{
+    width:150px;
+}
+
+.arrival_line{
+    width:150px;
+}
+
+.arrival_station{
+    width:150px;
+}
+
+.cost{
+    width:60px;
+}
+
+.edit{
+    width:50px;
+}
+
+.delete{
+    width:50px;
+}
+
+.content_target{
+    overflow:hidden;
+    width:100%
+}
+
+.content_used_at{
+    overflow:hidden;
+    width:100%
+}
+
+.content_departure_line{
+    overflow:hidden;
+    width:100%
+}
+
+.content_departure_station{
+    overflow:hidden;
+    width:100%
+}
+
+.content_arrival_line{
+    overflow:hidden;
+    width:100%
+}
+
+.content_arrival_station{
+    overflow:hidden;
+    width:100%
+}
+
+.content_cost{
+    text-align:right;
+    overflow:hidden;
+    width:100%
+}
+
+.content_edit{
+    overflow:hidden;
+    width:100%
+}
+
+.content_delete{
+    overflow:hidden;
+    width:100%
+}
+
+#main #Toptitle{
+    text-align: center;
+}

@@ -1,0 +1,184 @@
+#calender_img{
+    float: left;
+    height:500px;
+}
+#whole{
+    width:400px;
+    height:500px;
+    float: left;
+}
+#contents{
+    width:1040px;
+    margin:auto;
+}
+#lefter{
+    width:520px;
+    float:left;
+}
+#lefting{
+    width:320px;
+    margin-left: 200px;
+    float:left;
+}
+#righter{
+    width:520px;
+    float:right;
+}
+#Rirekis{
+    width:700px;
+    margin:auto;
+}
+#migi{
+    width:500px;
+    float: left;
+    height:300px;
+}
+input.Brireki{
+    width:150px;
+    height:75px;
+    font-size:2.5em;
+}
+
+input.Brireki2{
+    width:150px;
+    height:75px;
+    font-size:1.4em;
+}
+
+input.BDownload{
+    width:200px;
+    height:50px;
+    font-size:1.5em;
+}
+
+input.RTouroku{
+    width:130px;
+    height:45px;
+    font-size:1.5em;
+}
+
+input.RSakujo{
+    width:100px;
+    height:35px;
+    font-size:1.3em;
+}
+
+#ichiran{
+     width:1040px;
+     float: left;
+ }
+
+table.Tichiran {
+     width:751px;
+     border-collapse: collapse;
+ }
+
+table.Tichiran th{
+     width:125px;
+     border:1px solid #000;
+     text-align: center
+ }
+
+ table.Tichiran td{
+     width:125px;
+     border:1px solid #000;
+     text-align: center
+ }
+
+ table.TRireki {
+     width:700px;
+     border-collapse: collapse;
+ }
+
+ table.TRireki th{
+     border:1px solid #000;
+     text-align: center
+ }
+
+
+  table.TRireki td{
+     border:1px solid #000;
+     text-align: center
+ }
+
+ #ShinkiText{
+     font-size:1.2em;
+ }
+ .ShinkiText2{
+     font-size:1.2em;
+ }
+
+
+table.Sichiran {
+     width:1251px;
+     border-collapse: collapse;
+     margin:auto;
+ }
+
+table.Sichiran th{
+     width:300px;
+     border:1px solid #000;
+     text-align: center
+ }
+
+ table.Sichiran td{
+     width:300px;
+     border:1px solid #000;
+     text-align: center
+ }
+
+ table.Sichiran2 {
+     width:600px;
+     border-collapse: collapse;
+     margin:auto;
+ }
+
+table.Sichiran2 th{
+     width:150px;
+     border:1px solid #000;
+     text-align: center
+ }
+
+ table.Sichiran2 td{
+     width:450px;
+     border:1px solid #000;
+     text-align: center
+ }
+
+
+ .oufuku {
+     width:150px;
+     border:1px solid #000;
+     text-align: center
+ }
+
+ #Scontents{
+    width:1251px;
+    margin:auto;
+}
+
+input.TuikaRosen{
+    width:150px;
+    height:35px;
+    font-size:1.3em;
+}
+
+#adminTop {
+    margin: auto;
+}
+
+#adminTop {
+    text-align: center;
+}
+
+#Texting{
+    border:0;
+    padding:10px;
+    font-size:1.3em;
+    font-family:Arial, sans-serif;
+    color:#aaa;
+    border:solid 1px #ccc;
+    margin:0 0 20px;
+    width:300px;
+}
+

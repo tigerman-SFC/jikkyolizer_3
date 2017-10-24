@@ -1,0 +1,3 @@
+[mysql]
+[mysqld]
+default-time-zone = 'Asia/Tokyo'

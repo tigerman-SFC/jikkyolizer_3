@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/js/official/vue.js"></script>
+<script type="text/javascript" src="/js/official/axios.js"></script>
+<script type="text/javascript" src="/js/myjs/jikkyolizer.js"></script>
+</head>
+<body>
+<div class='jikkyo'>
+  <audio class='jikkyo_voice' preload="auto" autoplay>
+    <source v-bind:src="outer_voice" type="audio/wav">
+  </audio>
+  <p>{{ outer_voice }}</p>
+</div>
+<script type="text/javascript">
+	<!--
+		init_voice();
+		watch_rest_time();
+	// -->
+</script>
+</body>
+</html>

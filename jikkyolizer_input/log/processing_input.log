@@ -1,0 +1,855 @@
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=-5 timing=2017-07-28 22:45:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=-5 timing=2017-07-28 22:45:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'string_5': '4997', 'span_3': 0, 'last_6': None, 'span_8': 0, 'last_4': None, 'string_2': '1996', 'last_7': None, 'string_9': '8999', 'group_relation': None, 'others': 0, 'total_number': 7, 'span_4': 0, 'last_2': None, 'span_2': 0, 'string_6': '5998', 'item_id': 'rainfall', 'string_0': '-5', 'max_value': 10000.0, 'string_1': '995', 'span_9': 3, 'item_relation': '全国24時間降水量', 'last_1': None, 'min_value': -5.0, 'string_3': '2997', 'string_8': '7999', 'item_kind': 'int', 'span_0': 4, 'last_5': None, 'span_1': 0, 'group_id': '24時間降水量-鹿角', 'string_4': '3997', 'string_7': '6999', 'last_8': None, 'last_3': None, 'span_6': 0, 'span_5': 0, 'span_7': 0, 'last_0': datetime.datetime(2017, 7, 28, 23, 6, 20), 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20)}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=100 timing=2017-07-28 22:45:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=100 timing=2017-07-28 22:45:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'span_8': 0, 'others': 0, 'span_4': 0, 'max_value': 10000.0, 'string_6': '5998', 'group_relation': None, 'string_5': '4997', 'string_1': '995', 'item_relation': '全国24時間降水量', 'last_5': None, 'span_9': 3, 'last_4': None, 'string_8': '7999', 'string_0': '-5', 'last_1': None, 'span_6': 0, 'span_2': 0, 'string_7': '6999', 'item_id': 'rainfall', 'last_3': None, 'item_kind': 'int', 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20), 'span_0': 4, 'span_1': 0, 'group_id': '24時間降水量-鹿角', 'min_value': -5.0, 'string_3': '2997', 'string_4': '3997', 'string_2': '1996', 'span_3': 0, 'string_9': '8999', 'last_7': None, 'last_2': None, 'span_7': 0, 'span_5': 0, 'last_8': None, 'total_number': 7, 'last_0': datetime.datetime(2017, 7, 28, 23, 6, 20), 'last_6': None}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+46
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=100 timing=2017-07-28 22:45:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=100 timing=2017-07-28 22:45:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'span_2': 0, 'last_6': None, 'string_7': '6999', 'string_3': '2997', 'string_1': '995', 'last_3': None, 'last_2': None, 'total_number': 7, 'group_id': '24時間降水量-鹿角', 'span_4': 0, 'string_5': '4997', 'string_0': '-5', 'span_3': 0, 'span_0': 4, 'span_8': 0, 'item_kind': 'int', 'max_value': 10000.0, 'span_7': 0, 'last_5': None, 'span_9': 3, 'string_4': '3997', 'min_value': -5.0, 'others': 0, 'last_1': None, 'string_2': '1996', 'last_0': datetime.datetime(2017, 7, 28, 23, 6, 20), 'item_relation': '全国24時間降水量', 'span_1': 0, 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20), 'last_7': None, 'last_4': None, 'string_6': '5998', 'span_5': 0, 'last_8': None, 'string_8': '7999', 'span_6': 0, 'group_relation': None, 'item_id': 'rainfall', 'string_9': '8999'}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-せたな'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-つくば(館野)*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-三木'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-上市'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-井川'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-京田辺'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-厚田'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-和田山'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-土呂部'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-塩沢'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-大栃'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-大洲'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-奈義'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-奥中山'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-室戸岬*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-屋久島*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-岩見三内'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-川渡'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-川谷'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-差首鍋'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-東成瀬'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-椿ヶ鼻'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-横浜*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-油津*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-波照間'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-浜頓別'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-浦幌'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-甲府*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-盛岡*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-磐田'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-福光'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-穂別'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-笹子'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-胡屋'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-能生'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-茨木'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-赤名'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-長万部'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-須佐'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-須原'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-飯山'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-高千穂'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-高峰'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-高萩'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-鶴丘'
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=100 timing=2017-07-28 22:45:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=100 timing=2017-07-28 22:45:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'string_4': '3997', 'span_3': 0, 'last_6': None, 'string_1': '995', 'last_8': None, 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20), 'last_5': None, 'string_8': '7999', 'span_8': 0, 'string_6': '5998', 'string_7': '6999', 'item_relation': '全国24時間降水量', 'span_6': 0, 'last_1': None, 'string_5': '4997', 'last_3': None, 'max_value': 10000.0, 'last_2': None, 'total_number': 7, 'item_id': 'rainfall', 'span_0': 4, 'others': 0, 'span_7': 0, 'string_2': '1996', 'last_7': None, 'span_5': 0, 'span_9': 3, 'string_9': '8999', 'span_1': 0, 'group_relation': None, 'span_4': 0, 'last_0': datetime.datetime(2017, 7, 28, 23, 6, 20), 'span_2': 0, 'string_3': '2997', 'last_4': None, 'min_value': -5.0, 'string_0': '-5', 'group_id': '24時間降水量-鹿角', 'item_kind': 'int'}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+select * from sox_data_last where group_id='24時間降水量-せたな' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-つくば(館野)*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-三木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-上市' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-井川' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-京田辺' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-厚田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-和田山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-土呂部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-塩沢' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大栃' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大洲' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奈義' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奥中山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-室戸岬*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-屋久島*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-岩見三内' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川渡' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川谷' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-差首鍋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-東成瀬' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-椿ヶ鼻' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-横浜*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-油津*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-波照間' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浜頓別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浦幌' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-甲府*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-盛岡*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-磐田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-福光' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-穂別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-笹子' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-胡屋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-能生' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-茨木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-赤名' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-長万部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須佐' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須原' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-飯山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高千穂' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高峰' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高萩' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-鶴丘' and item_id='rainfall'
+update sox_jikkyolized set string_4='3997',string_2='1996',span_3=0,string_1='995',string_8='7999',span_8=0,string_7='6999',item_relation='全国24時間降水量',last_7=null,total_number=8,last_5=null,span_7=0,span_5=0,string_6='5998',span_1=0,last_0='2017-07-28 23:06:20',last_4=null,last_3=null,last_1=null,last_6=null,last_8=null,last_9='2017-07-28 23:06:20',item_kind='int',span_6=0,min_value=-5.0,string_0='-5',last_2=null,others=0,string_3='2997',span_0=5,span_9=3,string_9='8999',group_relation=null,span_4=0,span_2=0,string_5='4997',max_value=10000.0 where group_id='24時間降水量-鹿角' and item_id='rainfall'
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=-5 timing=2017-07-28 22:45:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=-5 timing=2017-07-28 22:45:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'min_value': -5.0, 'max_value': 10000.0, 'string_9': '8999', 'string_5': '4997', 'last_6': None, 'last_2': None, 'string_3': '2997', 'item_relation': '全国24時間降水量', 'span_3': 0, 'last_0': datetime.datetime(2017, 7, 28, 23, 6, 20), 'span_8': 0, 'total_number': 8, 'last_5': None, 'string_6': '5998', 'last_7': None, 'string_8': '7999', 'span_7': 0, 'item_kind': 'int', 'string_0': '-5', 'item_id': 'rainfall', 'string_1': '995', 'span_5': 0, 'span_9': 3, 'last_3': None, 'group_relation': None, 'span_6': 0, 'string_2': '1996', 'last_1': None, 'string_4': '3997', 'span_4': 0, 'span_2': 0, 'string_7': '6999', 'last_8': None, 'last_4': None, 'span_0': 5, 'group_id': '24時間降水量-鹿角', 'span_1': 0, 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20), 'others': 0}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-せたな'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-つくば(館野)*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-三木'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-上市'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-井川'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-京田辺'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-厚田'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-和田山'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-土呂部'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-塩沢'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-大栃'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-大洲'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-奈義'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-奥中山'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-室戸岬*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-屋久島*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-岩見三内'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-川渡'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-川谷'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-差首鍋'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-東成瀬'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-椿ヶ鼻'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-横浜*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-油津*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-波照間'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-浜頓別'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-浦幌'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-甲府*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-盛岡*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-磐田'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-福光'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-穂別'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-笹子'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-胡屋'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-能生'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-茨木'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-赤名'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-長万部'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-須佐'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-須原'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-飯山'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-高千穂'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-高峰'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-高萩'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-鶴丘'
+update sox_jikkyolized set string_0='-5',min_value=-5.0,max_value=10000.0,last_2=null,last_3=null,last_5=null,item_relation='全国24時間降水量',item_kind='int',span_7=0,span_9=3,last_1=null,string_7='6999',last_4=null,span_0=6,string_3='2997',span_1=0,string_5='4997',last_7=null,last_9='2017-07-28 23:06:20',string_9='8999',span_3=0,last_0='2017-07-28 23:06:20',span_8=0,total_number=9,span_6=0,string_8='7999',string_1='995',span_5=0,last_6=null,group_relation=null,string_6='5998',string_2='1996',string_4='3997',span_4=0,span_2=0,last_8=null,others=0 where item_id='rainfall' and group_id='24時間降水量-鹿角'
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=-5 timing=2017-07-28 22:45:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=-5 timing=2017-07-28 22:45:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'last_0': datetime.datetime(2017, 7, 28, 23, 6, 20), 'max_value': 10000.0, 'string_4': '3997', 'last_4': None, 'last_7': None, 'span_1': 0, 'span_6': 0, 'last_3': None, 'group_id': '24時間降水量-鹿角', 'span_7': 0, 'group_relation': None, 'string_7': '6999', 'last_1': None, 'item_kind': 'int', 'string_6': '5998', 'last_2': None, 'string_2': '1996', 'string_0': '-5', 'total_number': 9, 'string_1': '995', 'last_6': None, 'string_3': '2997', 'last_5': None, 'last_8': None, 'string_9': '8999', 'string_5': '4997', 'span_4': 0, 'span_0': 6, 'min_value': -5.0, 'item_id': 'rainfall', 'span_9': 3, 'span_5': 0, 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20), 'others': 0, 'string_8': '7999', 'span_2': 0, 'span_3': 0, 'item_relation': '全国24時間降水量', 'span_8': 0}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+select * from sox_data_last where group_id='24時間降水量-せたな' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-つくば(館野)*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-三木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-上市' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-井川' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-京田辺' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-厚田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-和田山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-土呂部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-塩沢' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大栃' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大洲' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奈義' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奥中山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-室戸岬*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-屋久島*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-岩見三内' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川渡' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川谷' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-差首鍋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-東成瀬' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-椿ヶ鼻' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-横浜*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-油津*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-波照間' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浜頓別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浦幌' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-甲府*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-盛岡*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-磐田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-福光' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-穂別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-笹子' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-胡屋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-能生' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-茨木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-赤名' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-長万部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須佐' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須原' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-飯山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高千穂' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高峰' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高萩' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-鶴丘' and item_id='rainfall'
+update sox_jikkyolized set last_0='2017-07-28 23:06:20',last_1=null,string_7='6999',span_6=0,span_7=0,group_relation=null,item_kind='int',string_6='5998',string_2='1996',span_9=3,last_7=null,string_1='995',last_6=null,last_5=null,string_9='8999',span_4=0,others=0,min_value=-5.0,span_5=0,string_8='7999',max_value=10000.0,string_4='3997',last_8=null,item_relation='全国24時間降水量',last_3=null,total_number=10,last_2=null,span_8=0,string_3='2997',string_5='4997',span_0=7,string_0='-5',last_4=null,span_1=0,span_2=0,span_3=0,last_9='2017-07-28 23:06:20' where group_id='24時間降水量-鹿角' and item_id='rainfall'
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=-10 timing=2017-07-29 14:45:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=-10 timing=2017-07-29 14:45:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'others': 0, 'last_1': None, 'span_0': 7, 'span_8': 0, 'last_2': None, 'last_5': None, 'string_7': '6999', 'last_3': None, 'string_2': '1996', 'string_9': '8999', 'last_7': None, 'item_kind': 'int', 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20), 'string_3': '2997', 'last_8': None, 'span_5': 0, 'string_8': '7999', 'span_6': 0, 'item_relation': '全国24時間降水量', 'string_6': '5998', 'min_value': -5.0, 'span_3': 0, 'span_1': 0, 'last_0': datetime.datetime(2017, 7, 28, 23, 6, 20), 'item_id': 'rainfall', 'span_9': 3, 'string_0': '-5', 'last_6': None, 'string_4': '3997', 'span_2': 0, 'group_relation': None, 'last_4': None, 'span_4': 0, 'total_number': 10, 'max_value': 10000.0, 'string_1': '995', 'string_5': '4997', 'group_id': '24時間降水量-鹿角', 'span_7': 0}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-せたな'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-つくば(館野)*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-三木'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-上市'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-井川'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-京田辺'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-厚田'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-和田山'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-土呂部'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-塩沢'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-大栃'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-大洲'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-奈義'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-奥中山'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-室戸岬*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-屋久島*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-岩見三内'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-川渡'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-川谷'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-差首鍋'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-東成瀬'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-椿ヶ鼻'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-横浜*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-油津*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-波照間'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-浜頓別'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-浦幌'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-甲府*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-盛岡*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-磐田'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-福光'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-穂別'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-笹子'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-胡屋'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-能生'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-茨木'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-赤名'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-長万部'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-須佐'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-須原'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-飯山'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-高千穂'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-高峰'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-高萩'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-鶴丘'
+update sox_jikkyolized set others=0,span_0=29,last_9='2017-07-28 23:06:20',string_3='2993',last_8=null,span_5=0,string_8='7998',item_relation='全国24時間降水量',last_1=null,min_value=-10,span_9=3,string_0='-10',last_6=null,string_4='3994',span_2=0,last_4=null,item_kind='int',string_1='991',last_5=null,last_7=null,span_8=0,last_2=null,string_7='6997',last_3=null,string_2='1992',string_9='8999',span_6=0,max_value=10000.0,string_6='5996',span_3=0,span_1=0,last_0='2017-07-29 15:06:20',span_4=0,total_number=11,group_relation=null,string_5='4995',span_7=0 where item_id='rainfall' and group_id='24時間降水量-鹿角'
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=-10 timing=2017-07-29 14:45:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=-10 timing=2017-07-29 14:45:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'span_8': 0, 'group_relation': None, 'string_6': '5996', 'string_3': '2993', 'max_value': 10000.0, 'total_number': 11, 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20), 'span_5': 0, 'string_2': '1992', 'last_8': None, 'span_0': 29, 'string_8': '7998', 'last_3': None, 'span_4': 0, 'item_kind': 'int', 'min_value': -10.0, 'last_6': None, 'item_relation': '全国24時間降水量', 'last_1': None, 'string_1': '991', 'item_id': 'rainfall', 'span_6': 0, 'group_id': '24時間降水量-鹿角', 'others': 0, 'string_0': '-10', 'string_9': '8999', 'span_2': 0, 'string_7': '6997', 'last_2': None, 'span_1': 0, 'last_0': datetime.datetime(2017, 7, 29, 15, 6, 20), 'span_3': 0, 'last_5': None, 'last_4': None, 'last_7': None, 'span_9': 3, 'span_7': 0, 'string_5': '4995', 'string_4': '3994'}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+select * from sox_data_last where group_id='24時間降水量-せたな' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-つくば(館野)*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-三木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-上市' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-井川' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-京田辺' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-厚田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-和田山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-土呂部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-塩沢' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大栃' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大洲' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奈義' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奥中山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-室戸岬*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-屋久島*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-岩見三内' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川渡' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川谷' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-差首鍋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-東成瀬' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-椿ヶ鼻' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-横浜*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-油津*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-波照間' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浜頓別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浦幌' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-甲府*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-盛岡*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-磐田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-福光' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-穂別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-笹子' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-胡屋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-能生' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-茨木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-赤名' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-長万部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須佐' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須原' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-飯山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高千穂' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高峰' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高萩' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-鶴丘' and item_id='rainfall'
+update sox_jikkyolized set span_8=0,string_6='5996',max_value=10000.0,total_number=12,span_0=30,string_8='7998',last_3=null,item_kind='int',string_9='8999',last_6=null,string_7='6997',string_0='-10',last_2=null,last_0='2017-07-29 15:06:20',span_3=0,last_5=null,span_7=0,span_9=3,string_4='3994',string_5='4995',group_relation=null,string_3='2993',span_1=0,last_7=null,last_9='2017-07-28 23:06:20',span_5=0,string_2='1992',last_8=null,span_4=0,min_value=-10.0,item_relation='全国24時間降水量',string_1='991',span_6=0,others=0,span_2=0,last_1=null,last_4=null where group_id='24時間降水量-鹿角' and item_id='rainfall'
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-07-24 22:45:20
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-07-24 22:45:20
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+{'string_6': None, 'min_value': 200.0, 'last_3': None, 'item_kind': 'int', 'item_id': 'テストアイテム', 'string_1': None, 'string_9': None, 'last_2': None, 'span_2': 0, 'span_8': 0, 'last_1': None, 'last_7': None, 'last_8': None, 'others': 0, 'string_8': None, 'span_3': 0, 'last_6': None, 'span_9': 0, 'string_7': None, 'last_9': None, 'string_5': None, 'group_relation': None, 'span_0': 11, 'total_number': 11, 'max_value': 200.0, 'span_5': 0, 'string_2': None, 'string_3': None, 'string_4': None, 'span_6': 0, 'span_4': 0, 'group_id': 'テストグループ', 'span_7': 0, 'last_5': None, 'string_0': '200', 'span_1': 0, 'last_4': None, 'item_relation': None, 'last_0': datetime.datetime(2017, 7, 24, 23, 6, 20)}
+update sox_jikkyolized set last_2=null,span_5=0,string_2=null,string_9=null,span_2=0,span_8=0,last_8=null,string_1=null,string_8=null,span_9=0,last_4=null,span_0=12,string_3=null,item_relation=null,last_7=null,span_6=0,span_7=0,string_0='200',last_0='2017-07-24 23:06:20',min_value=200.0,item_kind='int',string_4=null,last_3=null,last_1=null,others=0,span_3=0,total_number=12,string_7=null,string_5=null,group_relation=null,max_value=200.0,last_6=null,string_6=null,span_4=0,last_5=null,span_1=0,last_9=null where item_id='テストアイテム' and group_id='テストグループ'
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-07-24 22:45:20
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-07-24 22:45:20
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+{'span_9': 0, 'string_5': None, 'others': 0, 'group_id': 'テストグループ', 'last_2': None, 'item_id': 'テストアイテム', 'span_6': 0, 'item_kind': 'int', 'span_4': 0, 'span_3': 0, 'last_3': None, 'string_2': None, 'last_1': None, 'string_3': None, 'span_0': 12, 'string_1': None, 'group_relation': None, 'total_number': 12, 'string_0': '200', 'string_7': None, 'last_5': None, 'last_6': None, 'string_9': None, 'string_4': None, 'last_9': None, 'item_relation': None, 'min_value': 200.0, 'span_8': 0, 'span_7': 0, 'last_4': None, 'span_2': 0, 'last_7': None, 'string_8': None, 'max_value': 200.0, 'span_5': 0, 'string_6': None, 'span_1': 0, 'last_8': None, 'last_0': datetime.datetime(2017, 7, 24, 23, 6, 20)}
+update sox_jikkyolized set span_9=0,string_5=null,last_2=null,span_4=0,span_3=0,last_0='2017-07-24 23:06:20',last_1=null,last_9=null,string_0='200',last_5=null,string_4=null,item_relation=null,min_value=200.0,max_value=200.0,span_5=0,string_6=null,others=0,last_8=null,span_6=0,item_kind='int',last_3=null,string_3=null,string_2=null,last_6=null,span_0=13,string_1=null,group_relation=null,total_number=13,string_7=null,string_9=null,span_8=0,span_7=0,last_4=null,span_2=0,last_7=null,string_8=null,span_1=0 where item_id='テストアイテム' and group_id='テストグループ'
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=-10 timing=2017-07-29 20:00:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=-10 timing=2017-07-29 20:00:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'max_value': 10000.0, 'span_6': 0, 'string_8': '7998', 'last_4': None, 'total_number': 12, 'string_5': '4995', 'span_0': 30, 'last_0': datetime.datetime(2017, 7, 29, 15, 6, 20), 'span_8': 0, 'last_2': None, 'string_9': '8999', 'last_7': None, 'string_6': '5996', 'string_7': '6997', 'item_id': 'rainfall', 'span_9': 3, 'item_relation': '全国24時間降水量', 'string_2': '1992', 'span_7': 0, 'span_2': 0, 'span_4': 0, 'last_6': None, 'span_1': 0, 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20), 'last_5': None, 'string_3': '2993', 'last_1': None, 'last_8': None, 'string_1': '991', 'group_id': '24時間降水量-鹿角', 'span_3': 0, 'others': 0, 'group_relation': None, 'item_kind': 'int', 'last_3': None, 'min_value': -10.0, 'span_5': 0, 'string_0': '-10', 'string_4': '3994'}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-せたな'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-つくば(館野)*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-三木'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-上市'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-井川'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-京田辺'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-厚田'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-和田山'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-土呂部'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-塩沢'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-大栃'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-大洲'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-奈義'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-奥中山'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-室戸岬*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-屋久島*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-岩見三内'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-川渡'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-川谷'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-差首鍋'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-東成瀬'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-椿ヶ鼻'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-横浜*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-油津*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-波照間'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-浜頓別'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-浦幌'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-甲府*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-盛岡*'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-磐田'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-福光'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-穂別'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-笹子'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-胡屋'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-能生'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-茨木'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-赤名'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-長万部'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-須佐'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-須原'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-飯山'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-高千穂'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-高峰'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-高萩'
+select * from sox_data_last where item_id='rainfall' and group_id='24時間降水量-鶴丘'
+update sox_jikkyolized set max_value=10000.0,span_6=0,string_7='6997',last_0='2017-07-29 20:21:20',span_8=0,span_9=3,string_6='5996',span_7=0,span_2=0,span_4=0,last_5=null,last_1=null,last_8=null,string_1='991',last_6=null,string_3='2993',item_kind='int',min_value=-10.0,span_1=0,string_0='-10',string_9='8999',last_7=null,last_4=null,last_2=null,item_relation='全国24時間降水量',string_2='1992',string_8='7998',total_number=13,span_5=0,last_9='2017-07-28 23:06:20',span_0=31,others=0,group_relation=null,string_4='3994',span_3=0,string_5='4995',last_3=null where item_id='rainfall' and group_id='24時間降水量-鹿角'
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=20 timing=2017-07-29 20:00:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=20 timing=2017-07-29 20:00:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'span_9': 3, 'total_number': 13, 'string_3': '2993', 'span_2': 0, 'last_4': None, 'last_1': None, 'max_value': 10000.0, 'span_8': 0, 'string_6': '5996', 'string_9': '8999', 'span_4': 0, 'group_id': '24時間降水量-鹿角', 'min_value': -10.0, 'string_0': '-10', 'span_5': 0, 'item_id': 'rainfall', 'string_1': '991', 'string_4': '3994', 'string_2': '1992', 'last_3': None, 'last_6': None, 'last_5': None, 'span_6': 0, 'last_0': datetime.datetime(2017, 7, 29, 20, 21, 20), 'string_7': '6997', 'item_relation': '全国24時間降水量', 'span_7': 0, 'span_1': 0, 'string_5': '4995', 'last_8': None, 'span_0': 31, 'item_kind': 'int', 'span_3': 0, 'last_2': None, 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20), 'string_8': '7998', 'group_relation': None, 'last_7': None, 'others': 0}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+select * from sox_data_last where group_id='24時間降水量-せたな' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-つくば(館野)*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-三木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-上市' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-井川' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-京田辺' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-厚田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-和田山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-土呂部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-塩沢' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大栃' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大洲' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奈義' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奥中山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-室戸岬*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-屋久島*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-岩見三内' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川渡' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川谷' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-差首鍋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-東成瀬' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-椿ヶ鼻' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-横浜*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-油津*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-波照間' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浜頓別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浦幌' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-甲府*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-盛岡*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-磐田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-福光' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-穂別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-笹子' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-胡屋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-能生' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-茨木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-赤名' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-長万部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須佐' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須原' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-飯山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高千穂' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高峰' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高萩' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-鶴丘' and item_id='rainfall'
+update sox_jikkyolized set span_9=3,last_1=null,span_2=0,last_6=null,span_8=0,span_5=0,string_7='6997',string_4='3994',string_2='1992',last_3=null,span_6=0,last_9='2017-07-28 23:06:20',span_7=0,span_0=32,item_kind='int',last_2=null,last_7=null,total_number=14,string_3='2993',string_1='991',last_5=null,max_value=10000.0,string_6='5996',string_9='8999',span_4=0,min_value=-10.0,string_0='-10',last_4=null,others=0,last_8=null,item_relation='全国24時間降水量',span_1=0,string_5='4995',last_0='2017-07-29 20:21:20',span_3=0,string_8='7998',group_relation=null where group_id='24時間降水量-鹿角' and item_id='rainfall'
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=50 timing=2017-07-29 20:00:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=50 timing=2017-07-29 20:00:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'others': 0, 'last_3': None, 'last_1': None, 'last_5': None, 'string_8': '7998', 'string_1': '991', 'string_7': '6997', 'span_8': 0, 'span_4': 0, 'string_9': '8999', 'item_kind': 'int', 'item_id': 'rainfall', 'max_value': 10000.0, 'span_6': 0, 'string_4': '3994', 'last_0': datetime.datetime(2017, 7, 29, 20, 21, 20), 'min_value': -10.0, 'last_7': None, 'last_4': None, 'span_0': 32, 'span_2': 0, 'string_2': '1992', 'string_6': '5996', 'span_5': 0, 'last_8': None, 'last_6': None, 'group_id': '24時間降水量-鹿角', 'string_3': '2993', 'group_relation': None, 'string_5': '4995', 'span_3': 0, 'span_7': 0, 'last_2': None, 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20), 'span_1': 0, 'item_relation': '全国24時間降水量', 'string_0': '-10', 'total_number': 14, 'span_9': 3}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+select * from sox_data_last where group_id='24時間降水量-せたな' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-つくば(館野)*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-三木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-上市' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-井川' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-京田辺' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-厚田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-和田山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-土呂部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-塩沢' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大栃' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大洲' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奈義' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奥中山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-室戸岬*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-屋久島*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-岩見三内' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川渡' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川谷' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-差首鍋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-東成瀬' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-椿ヶ鼻' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-横浜*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-油津*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-波照間' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浜頓別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浦幌' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-甲府*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-盛岡*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-磐田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-福光' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-穂別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-笹子' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-胡屋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-能生' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-茨木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-赤名' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-長万部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須佐' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須原' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-飯山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高千穂' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高峰' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高萩' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-鶴丘' and item_id='rainfall'
+update sox_jikkyolized set group_relation=null,last_3=null,span_8=0,last_8=null,item_kind='int',max_value=10000.0,last_7=null,span_0=33,last_0='2017-07-29 20:21:20',span_5=0,string_3='2993',last_1=null,string_5='4995',span_3=0,string_9='8999',span_6=0,total_number=15,span_7=0,others=0,string_1='991',string_8='7998',span_2=0,span_4=0,string_0='-10',string_4='3994',string_2='1992',min_value=-10.0,last_5=null,string_7='6997',string_6='5996',last_6=null,last_2=null,span_9=3,last_9='2017-07-28 23:06:20',span_1=0,item_relation='全国24時間降水量',last_4=null where group_id='24時間降水量-鹿角' and item_id='rainfall'
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=50 timing=2017-07-29 20:00:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=50 timing=2017-07-29 20:00:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'span_9': 3, 'span_4': 0, 'max_value': 10000.0, 'item_relation': '全国24時間降水量', 'last_1': None, 'string_7': '6997', 'string_1': '991', 'last_5': None, 'string_9': '8999', 'span_3': 0, 'span_2': 0, 'span_8': 0, 'span_5': 0, 'string_2': '1992', 'item_id': 'rainfall', 'string_6': '5996', 'total_number': 15, 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20), 'last_4': None, 'last_3': None, 'last_6': None, 'item_kind': 'int', 'others': 0, 'last_7': None, 'string_0': '-10', 'last_0': datetime.datetime(2017, 7, 29, 20, 21, 20), 'min_value': -10.0, 'last_8': None, 'string_3': '2993', 'group_id': '24時間降水量-鹿角', 'string_4': '3994', 'string_8': '7998', 'span_6': 0, 'span_7': 0, 'group_relation': None, 'span_1': 0, 'span_0': 33, 'string_5': '4995', 'last_2': None}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+select * from sox_data_last where group_id='24時間降水量-せたな' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-つくば(館野)*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-三木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-上市' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-井川' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-京田辺' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-厚田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-和田山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-土呂部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-塩沢' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大栃' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大洲' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奈義' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奥中山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-室戸岬*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-屋久島*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-岩見三内' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川渡' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川谷' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-差首鍋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-東成瀬' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-椿ヶ鼻' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-横浜*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-油津*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-波照間' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浜頓別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浦幌' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-甲府*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-盛岡*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-磐田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-福光' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-穂別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-笹子' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-胡屋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-能生' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-茨木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-赤名' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-長万部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須佐' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須原' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-飯山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高千穂' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高峰' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高萩' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-鶴丘' and item_id='rainfall'
+update sox_jikkyolized set span_4=0,item_relation='全国24時間降水量',string_7='6997',span_8=0,string_2='1992',string_6='5996',item_kind='int',others=0,last_7=null,min_value=-10.0,string_8='7998',span_3=0,span_5=0,last_1=null,span_9=3,max_value=10000.0,last_6=null,span_6=0,last_5=null,string_9='8999',span_2=0,group_relation=null,last_2=null,total_number=16,span_1=0,last_4=null,string_5='4995',string_0='-10',last_0='2017-07-29 20:21:20',last_8=null,string_3='2993',string_4='3994',string_1='991',span_7=0,last_3=null,last_9='2017-07-28 23:06:20',span_0=34 where group_id='24時間降水量-鹿角' and item_id='rainfall'
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=70 timing=2017-07-29 20:00:20
+group_id=24時間降水量-鹿角 item_id=rainfall raw_value=70 timing=2017-07-29 20:00:20
+
+select * from sox_jikkyolized where item_id='rainfall' and group_id='24時間降水量-鹿角';
+{'span_6': 0, 'group_id': '24時間降水量-鹿角', 'last_6': None, 'span_4': 0, 'item_kind': 'int', 'last_0': datetime.datetime(2017, 7, 29, 20, 21, 20), 'span_0': 34, 'last_2': None, 'last_9': datetime.datetime(2017, 7, 28, 23, 6, 20), 'item_id': 'rainfall', 'last_1': None, 'string_2': '1992', 'string_7': '6997', 'max_value': 10000.0, 'last_3': None, 'string_9': '8999', 'span_1': 0, 'span_8': 0, 'span_9': 3, 'string_4': '3994', 'string_0': '-10', 'last_5': None, 'string_8': '7998', 'last_4': None, 'total_number': 16, 'span_5': 0, 'last_7': None, 'string_3': '2993', 'span_2': 0, 'string_6': '5996', 'others': 0, 'span_7': 0, 'span_3': 0, 'item_relation': '全国24時間降水量', 'string_1': '991', 'string_5': '4995', 'last_8': None, 'group_relation': None, 'min_value': -10.0}
+select * from sox_jikkyolized where item_relation='全国24時間降水量'
+select * from sox_data_last where group_id='24時間降水量-せたな' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-つくば(館野)*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-三木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-上市' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-井川' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-京田辺' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-厚田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-和田山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-土呂部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-塩沢' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大栃' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-大洲' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奈義' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-奥中山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-室戸岬*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-屋久島*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-岩見三内' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川渡' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-川谷' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-差首鍋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-東成瀬' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-椿ヶ鼻' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-横浜*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-油津*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-波照間' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浜頓別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-浦幌' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-甲府*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-盛岡*' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-磐田' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-福光' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-穂別' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-笹子' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-胡屋' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-能生' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-茨木' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-赤名' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-長万部' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須佐' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-須原' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-飯山' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高千穂' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高峰' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-高萩' and item_id='rainfall'
+select * from sox_data_last where group_id='24時間降水量-鶴丘' and item_id='rainfall'
+update sox_jikkyolized set span_6=0,last_6=null,span_4=0,last_0='2017-07-29 20:21:20',span_0=35,last_9='2017-07-28 23:06:20',string_7='6997',last_5=null,span_8=0,span_9=3,string_4='3994',string_0='-10',last_2=null,last_7=null,string_3='2993',span_3=0,item_relation='全国24時間降水量',last_8=null,string_5='4995',string_8='7998',item_kind='int',last_1=null,string_2='1992',span_2=0,last_3=null,span_1=0,string_9='8999',total_number=17,max_value=10000.0,span_5=0,string_6='5996',group_relation=null,span_7=0,last_4=null,string_1='991',min_value=-10.0,others=0 where group_id='24時間降水量-鹿角' and item_id='rainfall'
+group_id=tenki.jp高田 item_id=rain raw_value=20.0 timing=2017-07-29 20:00:20
+group_id=tenki.jp高田 item_id=rain raw_value=20.0 timing=2017-07-29 20:00:20
+
+select * from sox_jikkyolized where item_id='rain' and group_id='tenki.jp高田';
+{'group_relation': None, 'item_id': 'rain', 'last_9': datetime.datetime(2017, 7, 25, 22, 53, 3), 'string_4': '3.2', 'last_1': datetime.datetime(2017, 7, 26, 2, 56, 37), 'min_value': 0.0, 'string_3': '2.4', 'string_9': '7.2', 'span_2': 16, 'string_8': '6.4', 'span_9': 11, 'max_value': 7.5, 'group_id': 'tenki.jp高田', 'item_kind': 'float', 'span_6': 24, 'string_2': '1.6', 'string_7': '5.6', 'last_4': datetime.datetime(2017, 7, 26, 5, 53, 59), 'last_6': datetime.datetime(2017, 7, 25, 22, 0, 40), 'span_0': 309, 'last_2': datetime.datetime(2017, 7, 26, 6, 56, 28), 'last_7': datetime.datetime(2017, 7, 25, 17, 54, 29), 'last_5': datetime.datetime(2017, 7, 26, 4, 53, 49), 'last_3': datetime.datetime(2017, 7, 26, 3, 52, 16), 'last_0': datetime.datetime(2017, 7, 29, 20, 5, 14), 'last_8': datetime.datetime(2017, 7, 25, 23, 55, 29), 'total_number': 458, 'string_1': '0.8', 'span_8': 12, 'string_6': '4.8', 'string_0': '0.0', 'string_5': '4.0', 'item_relation': 'tenki.jprain', 'others': 0, 'span_4': 12, 'span_1': 22, 'span_7': 5, 'span_3': 17, 'span_5': 31}
+group_id=テストグループ item_id=テストアイテム
+ストグループ item_id=テストアイテテストアイテ
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-07-24 22:45:20
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-07-24 22:45:20
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+None
+group_id=テストグループ item_id=テストアイテム raw_value=300 timing=2017-07-24 22:45:20
+group_id=テストグループ item_id=テストアイテム raw_value=300 timing=2017-07-24 22:45:20
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+None
+group_id=テストグループ item_id=テストアイテム raw_value=170 timing=2017-07-25 00:12:20
+group_id=テストグループ item_id=テストアイテム raw_value=170 timing=2017-07-25 00:12:20
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+None
+group_id=テストグループ item_id=テストアイテム
+ストグループ item_id=テストアイテテストアイテ
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-09-26 02:47:10
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-09-26 02:47:10
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+None
+group_id=テストグループ item_id=テストアイテム raw_value=300 timing=2017-09-26 02:47:20
+group_id=テストグループ item_id=テストアイテム raw_value=300 timing=2017-09-26 02:47:20
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+None
+group_id=テストグループ item_id=テストアイテム raw_value=170 timing=2017-09-26 02:47:30
+group_id=テストグループ item_id=テストアイテム raw_value=170 timing=2017-09-26 02:47:30
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+None
+group_id=テストグループ item_id=テストアイテム raw_value=170 timing=2017-07-25 00:12:20
+group_id=テストグループ item_id=テストアイテム raw_value=170 timing=2017-07-25 00:12:20
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+None
+group_id=テストグループ item_id=テストアイテム
+ストグループ item_id=テストアイテテストアイテ
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-09-26 02:47:10
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-09-26 02:47:10
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+
+
+None
+
+
+group_id=テストグループ item_id=テストアイテム raw_value=300 timing=2017-09-26 02:47:20
+group_id=テストグループ item_id=テストアイテム raw_value=300 timing=2017-09-26 02:47:20
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+
+
+None
+
+
+group_id=テストグループ item_id=テストアイテム raw_value=170 timing=2017-09-26 02:47:30
+group_id=テストグループ item_id=テストアイテム raw_value=170 timing=2017-09-26 02:47:30
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+
+
+None
+
+
+group_id='テストグループ' item_id='テストアイテム'
+テストグループ' item_id='テストアイテム'テストアイテム
+group_id='テストグループ' item_id='テストアイテム' raw_value=200 timing=2017-09-26 02:47:10
+group_id='テストグループ' item_id='テストアイテム' raw_value=200 timing=2017-09-26 02:47:10
+
+group_id=テストグループ item_id=テストアイテム
+ストグループ item_id=テストアイテテストアイテ
+group_id='テストグループ item_id=テストアイテム'
+テストグループ item_id=テストアイテムテストアイテム
+group_id='テストグループ' item_id='テストアイテム'
+テストグループ' item_id='テストアイテム'テストアイテム
+group_id='テストグループ' item_id='テストアイテム '
+テストグループ' item_id='テストアイテム 'テストアイテム 
+group_id='テストグループ',item_id='テストアイテム '
+テストグループ''テストアイテム 
+group_id='テストグループ,item_id=テストアイテム '
+テストグループテストアイテム 
+group_id='テストグループ,item_id=テストアイテム raw_value=200 timing=2017-09-26 02:47:10
+group_id='テストグループ,item_id=テストアイテム raw_value=200 timing=2017-09-26 02:47:10
+
+group_id='テストグループ,item_id=テストアイテム raw_value=300 timing=2017-09-26 02:47:20
+group_id='テストグループ,item_id=テストアイテム raw_value=300 timing=2017-09-26 02:47:20
+
+group_id='テストグループ,item_id=テストアイテム raw_value=170 timing=2017-09-26 02:47:30
+group_id='テストグループ,item_id=テストアイテム raw_value=170 timing=2017-09-26 02:47:30
+
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-09-26 02:47:10
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-09-26 02:47:10
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+
+
+{'item_id': 'テストアイテム ', 'group_id': 'テストグループ', 'max_value': None, 'min_value': None, 'item_kind': None, 'group_relation': None, 'item_relation': None, 'others': None, 'total_number': 0, 'span_0': None, 'span_1': None, 'span_2': None, 'span_3': None, 'span_4': None, 'span_5': None, 'span_6': None, 'span_7': None, 'span_8': None, 'span_9': None, 'string_0': None, 'string_1': None, 'string_2': None, 'string_3': None, 'string_4': None, 'string_5': None, 'string_6': None, 'string_7': None, 'string_8': None, 'string_9': None, 'last_0': None, 'last_1': None, 'last_2': None, 'last_3': None, 'last_4': None, 'last_5': None, 'last_6': None, 'last_7': None, 'last_8': None, 'last_9': None}
+
+
+update sox_jikkyolized set max_value=200,min_value=200,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=1,span_0=1,span_1=0,span_2=0,span_3=0,span_4=0,span_5=0,span_6=0,span_7=0,span_8=0,span_9=0,string_0='200',string_1=null,string_2=null,string_3=null,string_4=null,string_5=null,string_6=null,string_7=null,string_8=null,string_9=null,last_0='2017-09-26 03:08:10',last_1=null,last_2=null,last_3=null,last_4=null,last_5=null,last_6=null,last_7=null,last_8=null,last_9=null where group_id='テストグループ' and item_id='テストアイテム '
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-09-26 02:47:10
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-09-26 02:47:10
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+
+
+{'item_id': 'テストアイテム ', 'group_id': 'テストグループ', 'max_value': 200.0, 'min_value': 200.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 1, 'span_0': 1, 'span_1': 0, 'span_2': 0, 'span_3': 0, 'span_4': 0, 'span_5': 0, 'span_6': 0, 'span_7': 0, 'span_8': 0, 'span_9': 0, 'string_0': '200', 'string_1': None, 'string_2': None, 'string_3': None, 'string_4': None, 'string_5': None, 'string_6': None, 'string_7': None, 'string_8': None, 'string_9': None, 'last_0': datetime.datetime(2017, 9, 26, 3, 8, 10), 'last_1': None, 'last_2': None, 'last_3': None, 'last_4': None, 'last_5': None, 'last_6': None, 'last_7': None, 'last_8': None, 'last_9': None}
+
+
+update sox_jikkyolized set max_value=200.0,min_value=200.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=2,span_0=2,span_1=0,span_2=0,span_3=0,span_4=0,span_5=0,span_6=0,span_7=0,span_8=0,span_9=0,string_0='200',string_1=null,string_2=null,string_3=null,string_4=null,string_5=null,string_6=null,string_7=null,string_8=null,string_9=null,last_0='2017-09-26 03:08:10',last_1=null,last_2=null,last_3=null,last_4=null,last_5=null,last_6=null,last_7=null,last_8=null,last_9=null where group_id='テストグループ' and item_id='テストアイテム '
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-09-26 02:47:10
+group_id=テストグループ item_id=テストアイテム raw_value=200 timing=2017-09-26 02:47:10
+
+select * from sox_jikkyolized where item_id='テストアイテム' and group_id='テストグループ';
+
+
+{'item_id': 'テストアイテム ', 'group_id': 'テストグループ', 'max_value': 200.0, 'min_value': 200.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 2, 'span_0': 2, 'span_1': 0, 'span_2': 0, 'span_3': 0, 'span_4': 0, 'span_5': 0, 'span_6': 0, 'span_7': 0, 'span_8': 0, 'span_9': 0, 'string_0': '200', 'string_1': None, 'string_2': None, 'string_3': None, 'string_4': None, 'string_5': None, 'string_6': None, 'string_7': None, 'string_8': None, 'string_9': None, 'last_0': datetime.datetime(2017, 9, 26, 3, 8, 10), 'last_1': None, 'last_2': None, 'last_3': None, 'last_4': None, 'last_5': None, 'last_6': None, 'last_7': None, 'last_8': None, 'last_9': None}
+
+
+update sox_jikkyolized set max_value=200.0,min_value=200.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=3,span_0=3,span_1=0,span_2=0,span_3=0,span_4=0,span_5=0,span_6=0,span_7=0,span_8=0,span_9=0,string_0='200',string_1=null,string_2=null,string_3=null,string_4=null,string_5=null,string_6=null,string_7=null,string_8=null,string_9=null,last_0='2017-09-26 03:08:10',last_1=null,last_2=null,last_3=null,last_4=null,last_5=null,last_6=null,last_7=null,last_8=null,last_9=null where group_id='テストグループ' and item_id='テストアイテム '
+group_id='テストデータグループ,item_id=テストデータアイテム '
+テストデータグループテストデータアイテム 
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=10 timing=2015-08-26 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=10 timing=2015-08-26 02:47:10
+
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=20 timing=2016-02-26 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=20 timing=2016-02-26 02:47:10
+
+group_id='テストデータグループ,item_id=テストデータアイテム '
+テストデータグループテストデータアイテム 
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=10 timing=2015-08-26 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=10 timing=2015-08-26 02:47:10
+
+select * from sox_jikkyolized where item_id='テストデータアイテム' and group_id='テストデータグループ';
+
+
+{'item_id': 'テストデータアイテム ', 'group_id': 'テストデータグループ', 'max_value': None, 'min_value': None, 'item_kind': None, 'group_relation': None, 'item_relation': None, 'others': None, 'total_number': 0, 'span_0': None, 'span_1': None, 'span_2': None, 'span_3': None, 'span_4': None, 'span_5': None, 'span_6': None, 'span_7': None, 'span_8': None, 'span_9': None, 'string_0': None, 'string_1': None, 'string_2': None, 'string_3': None, 'string_4': None, 'string_5': None, 'string_6': None, 'string_7': None, 'string_8': None, 'string_9': None, 'last_0': None, 'last_1': None, 'last_2': None, 'last_3': None, 'last_4': None, 'last_5': None, 'last_6': None, 'last_7': None, 'last_8': None, 'last_9': None}
+
+
+update sox_jikkyolized set max_value=10,min_value=10,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=1,span_0=1,span_1=0,span_2=0,span_3=0,span_4=0,span_5=0,span_6=0,span_7=0,span_8=0,span_9=0,string_0='10',string_1=null,string_2=null,string_3=null,string_4=null,string_5=null,string_6=null,string_7=null,string_8=null,string_9=null,last_0='2015-08-26 02:47:10',last_1=null,last_2=null,last_3=null,last_4=null,last_5=null,last_6=null,last_7=null,last_8=null,last_9=null where group_id='テストデータグループ' and item_id='テストデータアイテム '
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=20 timing=2016-02-26 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=20 timing=2016-02-26 02:47:10
+
+select * from sox_jikkyolized where item_id='テストデータアイテム' and group_id='テストデータグループ';
+
+
+{'item_id': 'テストデータアイテム ', 'group_id': 'テストデータグループ', 'max_value': 10.0, 'min_value': 10.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 1, 'span_0': 1, 'span_1': 0, 'span_2': 0, 'span_3': 0, 'span_4': 0, 'span_5': 0, 'span_6': 0, 'span_7': 0, 'span_8': 0, 'span_9': 0, 'string_0': '10', 'string_1': None, 'string_2': None, 'string_3': None, 'string_4': None, 'string_5': None, 'string_6': None, 'string_7': None, 'string_8': None, 'string_9': None, 'last_0': datetime.datetime(2015, 8, 26, 2, 47, 10), 'last_1': None, 'last_2': None, 'last_3': None, 'last_4': None, 'last_5': None, 'last_6': None, 'last_7': None, 'last_8': None, 'last_9': None}
+
+
+update sox_jikkyolized set max_value=20,min_value=10.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=2,span_0=1,span_1=0,span_2=0,span_3=0,span_4=0,span_5=0,span_6=0,span_7=0,span_8=0,span_9=1,string_0='10.0',string_1='11.0',string_2='12.0',string_3='13.0',string_4='14.0',string_5='15.0',string_6='16.0',string_7='17.0',string_8='18.0',string_9='19.0',last_0='2015-08-26 02:47:10',last_1=null,last_2=null,last_3=null,last_4=null,last_5=null,last_6=null,last_7=null,last_8=null,last_9='2016-02-26 02:47:10' where group_id='テストデータグループ' and item_id='テストデータアイテム '
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=30 timing=2016-04-26 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=30 timing=2016-04-26 02:47:10
+
+select * from sox_jikkyolized where item_id='テストデータアイテム' and group_id='テストデータグループ';
+
+
+{'item_id': 'テストデータアイテム ', 'group_id': 'テストデータグループ', 'max_value': 20.0, 'min_value': 10.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 2, 'span_0': 1, 'span_1': 0, 'span_2': 0, 'span_3': 0, 'span_4': 0, 'span_5': 0, 'span_6': 0, 'span_7': 0, 'span_8': 0, 'span_9': 1, 'string_0': '10.0', 'string_1': '11.0', 'string_2': '12.0', 'string_3': '13.0', 'string_4': '14.0', 'string_5': '15.0', 'string_6': '16.0', 'string_7': '17.0', 'string_8': '18.0', 'string_9': '19.0', 'last_0': datetime.datetime(2015, 8, 26, 2, 47, 10), 'last_1': None, 'last_2': None, 'last_3': None, 'last_4': None, 'last_5': None, 'last_6': None, 'last_7': None, 'last_8': None, 'last_9': datetime.datetime(2016, 2, 26, 2, 47, 10)}
+
+
+update sox_jikkyolized set max_value=30,min_value=10.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=3,span_0=1,span_1=0,span_2=0,span_3=0,span_4=0,span_5=1,span_6=0,span_7=0,span_8=0,span_9=1,string_0='10.0',string_1='12.0',string_2='14.0',string_3='16.0',string_4='18.0',string_5='20.0',string_6='22.0',string_7='24.0',string_8='26.0',string_9='28.0',last_0='2015-08-26 02:47:10',last_1=null,last_2=null,last_3=null,last_4=null,last_5='2016-02-26 02:47:10',last_6=null,last_7=null,last_8=null,last_9='2016-04-26 02:47:10' where group_id='テストデータグループ' and item_id='テストデータアイテム '
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=60 timing=2017-06-25 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=60 timing=2017-06-25 02:47:10
+
+select * from sox_jikkyolized where item_id='テストデータアイテム' and group_id='テストデータグループ';
+
+
+{'item_id': 'テストデータアイテム ', 'group_id': 'テストデータグループ', 'max_value': 30.0, 'min_value': 10.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 3, 'span_0': 1, 'span_1': 0, 'span_2': 0, 'span_3': 0, 'span_4': 0, 'span_5': 1, 'span_6': 0, 'span_7': 0, 'span_8': 0, 'span_9': 1, 'string_0': '10.0', 'string_1': '12.0', 'string_2': '14.0', 'string_3': '16.0', 'string_4': '18.0', 'string_5': '20.0', 'string_6': '22.0', 'string_7': '24.0', 'string_8': '26.0', 'string_9': '28.0', 'last_0': datetime.datetime(2015, 8, 26, 2, 47, 10), 'last_1': None, 'last_2': None, 'last_3': None, 'last_4': None, 'last_5': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_6': None, 'last_7': None, 'last_8': None, 'last_9': datetime.datetime(2016, 4, 26, 2, 47, 10)}
+
+
+update sox_jikkyolized set max_value=60,min_value=10.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=4,span_0=1,span_1=0,span_2=1,span_3=0,span_4=1,span_5=0,span_6=0,span_7=0,span_8=0,span_9=1,string_0='10.0',string_1='15.0',string_2='20.0',string_3='25.0',string_4='30.0',string_5='35.0',string_6='40.0',string_7='45.0',string_8='50.0',string_9='55.0',last_0='2015-08-26 02:47:10',last_1=null,last_2='2016-02-26 02:47:10',last_3=null,last_4='2016-04-26 02:47:10',last_5='2016-02-26 02:47:10',last_6=null,last_7=null,last_8=null,last_9='2017-06-25 02:47:10' where group_id='テストデータグループ' and item_id='テストデータアイテム '
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=70 timing=2017-06-26 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=70 timing=2017-06-26 02:47:10
+
+select * from sox_jikkyolized where item_id='テストデータアイテム' and group_id='テストデータグループ';
+
+
+{'item_id': 'テストデータアイテム ', 'group_id': 'テストデータグループ', 'max_value': 60.0, 'min_value': 10.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 4, 'span_0': 1, 'span_1': 0, 'span_2': 1, 'span_3': 0, 'span_4': 1, 'span_5': 0, 'span_6': 0, 'span_7': 0, 'span_8': 0, 'span_9': 1, 'string_0': '10.0', 'string_1': '15.0', 'string_2': '20.0', 'string_3': '25.0', 'string_4': '30.0', 'string_5': '35.0', 'string_6': '40.0', 'string_7': '45.0', 'string_8': '50.0', 'string_9': '55.0', 'last_0': datetime.datetime(2015, 8, 26, 2, 47, 10), 'last_1': None, 'last_2': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_3': None, 'last_4': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_5': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_6': None, 'last_7': None, 'last_8': None, 'last_9': datetime.datetime(2017, 6, 25, 2, 47, 10)}
+
+
+update sox_jikkyolized set max_value=70,min_value=10.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=5,span_0=1,span_1=1,span_2=0,span_3=1,span_4=0,span_5=0,span_6=0,span_7=0,span_8=1,span_9=1,string_0='10.0',string_1='16.0',string_2='22.0',string_3='28.0',string_4='34.0',string_5='40.0',string_6='46.0',string_7='52.0',string_8='58.0',string_9='64.0',last_0='2015-08-26 02:47:10',last_1='2016-02-26 02:47:10',last_2='2016-02-26 02:47:10',last_3='2016-04-26 02:47:10',last_4='2016-04-26 02:47:10',last_5='2016-02-26 02:47:10',last_6=null,last_7=null,last_8='2017-06-25 02:47:10',last_9='2017-06-26 02:47:10' where group_id='テストデータグループ' and item_id='テストデータアイテム '
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=80 timing=2017-07-26 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=80 timing=2017-07-26 02:47:10
+
+select * from sox_jikkyolized where item_id='テストデータアイテム' and group_id='テストデータグループ';
+
+
+{'item_id': 'テストデータアイテム ', 'group_id': 'テストデータグループ', 'max_value': 70.0, 'min_value': 10.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 5, 'span_0': 1, 'span_1': 1, 'span_2': 0, 'span_3': 1, 'span_4': 0, 'span_5': 0, 'span_6': 0, 'span_7': 0, 'span_8': 1, 'span_9': 1, 'string_0': '10.0', 'string_1': '16.0', 'string_2': '22.0', 'string_3': '28.0', 'string_4': '34.0', 'string_5': '40.0', 'string_6': '46.0', 'string_7': '52.0', 'string_8': '58.0', 'string_9': '64.0', 'last_0': datetime.datetime(2015, 8, 26, 2, 47, 10), 'last_1': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_2': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_3': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_4': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_5': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_6': None, 'last_7': None, 'last_8': datetime.datetime(2017, 6, 25, 2, 47, 10), 'last_9': datetime.datetime(2017, 6, 26, 2, 47, 10)}
+
+
+update sox_jikkyolized set max_value=80,min_value=10.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=6,span_0=1,span_1=1,span_2=1,span_3=0,span_4=0,span_5=0,span_6=0,span_7=1,span_8=1,span_9=1,string_0='10.0',string_1='17.0',string_2='24.0',string_3='31.0',string_4='38.0',string_5='45.0',string_6='52.0',string_7='59.0',string_8='66.0',string_9='73.0',last_0='2015-08-26 02:47:10',last_1='2016-02-26 02:47:10',last_2='2016-04-26 02:47:10',last_3='2016-04-26 02:47:10',last_4='2016-04-26 02:47:10',last_5='2016-02-26 02:47:10',last_6=null,last_7='2017-06-25 02:47:10',last_8='2017-06-26 02:47:10',last_9='2017-07-26 02:47:10' where group_id='テストデータグループ' and item_id='テストデータアイテム '
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=90 timing=2017-07-28 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=90 timing=2017-07-28 02:47:10
+
+select * from sox_jikkyolized where item_id='テストデータアイテム' and group_id='テストデータグループ';
+
+
+{'item_id': 'テストデータアイテム ', 'group_id': 'テストデータグループ', 'max_value': 80.0, 'min_value': 10.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 6, 'span_0': 1, 'span_1': 1, 'span_2': 1, 'span_3': 0, 'span_4': 0, 'span_5': 0, 'span_6': 0, 'span_7': 1, 'span_8': 1, 'span_9': 1, 'string_0': '10.0', 'string_1': '17.0', 'string_2': '24.0', 'string_3': '31.0', 'string_4': '38.0', 'string_5': '45.0', 'string_6': '52.0', 'string_7': '59.0', 'string_8': '66.0', 'string_9': '73.0', 'last_0': datetime.datetime(2015, 8, 26, 2, 47, 10), 'last_1': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_2': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_3': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_4': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_5': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_6': None, 'last_7': datetime.datetime(2017, 6, 25, 2, 47, 10), 'last_8': datetime.datetime(2017, 6, 26, 2, 47, 10), 'last_9': datetime.datetime(2017, 7, 26, 2, 47, 10)}
+
+
+update sox_jikkyolized set max_value=90,min_value=10.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=7,span_0=1,span_1=1,span_2=1,span_3=0,span_4=0,span_5=0,span_6=1,span_7=1,span_8=1,span_9=1,string_0='10.0',string_1='18.0',string_2='26.0',string_3='34.0',string_4='42.0',string_5='50.0',string_6='58.0',string_7='66.0',string_8='74.0',string_9='82.0',last_0='2015-08-26 02:47:10',last_1='2016-02-26 02:47:10',last_2='2016-04-26 02:47:10',last_3='2016-04-26 02:47:10',last_4='2016-04-26 02:47:10',last_5='2016-02-26 02:47:10',last_6='2017-06-25 02:47:10',last_7='2017-06-26 02:47:10',last_8='2017-07-26 02:47:10',last_9='2017-07-28 02:47:10' where group_id='テストデータグループ' and item_id='テストデータアイテム '
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=10 timing=2017-08-26 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=10 timing=2017-08-26 02:47:10
+
+select * from sox_jikkyolized where item_id='テストデータアイテム' and group_id='テストデータグループ';
+
+
+{'item_id': 'テストデータアイテム ', 'group_id': 'テストデータグループ', 'max_value': 90.0, 'min_value': 10.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 7, 'span_0': 1, 'span_1': 1, 'span_2': 1, 'span_3': 0, 'span_4': 0, 'span_5': 0, 'span_6': 1, 'span_7': 1, 'span_8': 1, 'span_9': 1, 'string_0': '10.0', 'string_1': '18.0', 'string_2': '26.0', 'string_3': '34.0', 'string_4': '42.0', 'string_5': '50.0', 'string_6': '58.0', 'string_7': '66.0', 'string_8': '74.0', 'string_9': '82.0', 'last_0': datetime.datetime(2015, 8, 26, 2, 47, 10), 'last_1': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_2': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_3': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_4': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_5': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_6': datetime.datetime(2017, 6, 25, 2, 47, 10), 'last_7': datetime.datetime(2017, 6, 26, 2, 47, 10), 'last_8': datetime.datetime(2017, 7, 26, 2, 47, 10), 'last_9': datetime.datetime(2017, 7, 28, 2, 47, 10)}
+
+
+update sox_jikkyolized set max_value=90.0,min_value=10.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=8,span_0=2,span_1=1,span_2=1,span_3=0,span_4=0,span_5=0,span_6=1,span_7=1,span_8=1,span_9=1,string_0='10.0',string_1='18.0',string_2='26.0',string_3='34.0',string_4='42.0',string_5='50.0',string_6='58.0',string_7='66.0',string_8='74.0',string_9='82.0',last_0='2017-08-26 02:47:10',last_1='2016-02-26 02:47:10',last_2='2016-04-26 02:47:10',last_3='2016-04-26 02:47:10',last_4='2016-04-26 02:47:10',last_5='2016-02-26 02:47:10',last_6='2017-06-25 02:47:10',last_7='2017-06-26 02:47:10',last_8='2017-07-26 02:47:10',last_9='2017-07-28 02:47:10' where group_id='テストデータグループ' and item_id='テストデータアイテム '
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=50 timing=2017-09-20 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=50 timing=2017-09-20 02:47:10
+
+select * from sox_jikkyolized where item_id='テストデータアイテム' and group_id='テストデータグループ';
+
+
+{'item_id': 'テストデータアイテム ', 'group_id': 'テストデータグループ', 'max_value': 90.0, 'min_value': 10.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 8, 'span_0': 2, 'span_1': 1, 'span_2': 1, 'span_3': 0, 'span_4': 0, 'span_5': 0, 'span_6': 1, 'span_7': 1, 'span_8': 1, 'span_9': 1, 'string_0': '10.0', 'string_1': '18.0', 'string_2': '26.0', 'string_3': '34.0', 'string_4': '42.0', 'string_5': '50.0', 'string_6': '58.0', 'string_7': '66.0', 'string_8': '74.0', 'string_9': '82.0', 'last_0': datetime.datetime(2017, 8, 26, 2, 47, 10), 'last_1': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_2': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_3': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_4': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_5': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_6': datetime.datetime(2017, 6, 25, 2, 47, 10), 'last_7': datetime.datetime(2017, 6, 26, 2, 47, 10), 'last_8': datetime.datetime(2017, 7, 26, 2, 47, 10), 'last_9': datetime.datetime(2017, 7, 28, 2, 47, 10)}
+
+
+update sox_jikkyolized set max_value=90.0,min_value=10.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=9,span_0=2,span_1=1,span_2=1,span_3=0,span_4=0,span_5=1,span_6=1,span_7=1,span_8=1,span_9=1,string_0='10.0',string_1='18.0',string_2='26.0',string_3='34.0',string_4='42.0',string_5='50.0',string_6='58.0',string_7='66.0',string_8='74.0',string_9='82.0',last_0='2017-08-26 02:47:10',last_1='2016-02-26 02:47:10',last_2='2016-04-26 02:47:10',last_3='2016-04-26 02:47:10',last_4='2016-04-26 02:47:10',last_5='2017-09-20 02:47:10',last_6='2017-06-25 02:47:10',last_7='2017-06-26 02:47:10',last_8='2017-07-26 02:47:10',last_9='2017-07-28 02:47:10' where group_id='テストデータグループ' and item_id='テストデータアイテム '
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=60 timing=2017-09-27 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=60 timing=2017-09-27 02:47:10
+
+select * from sox_jikkyolized where item_id='テストデータアイテム' and group_id='テストデータグループ';
+
+
+{'item_id': 'テストデータアイテム ', 'group_id': 'テストデータグループ', 'max_value': 90.0, 'min_value': 10.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 9, 'span_0': 2, 'span_1': 1, 'span_2': 1, 'span_3': 0, 'span_4': 0, 'span_5': 1, 'span_6': 1, 'span_7': 1, 'span_8': 1, 'span_9': 1, 'string_0': '10.0', 'string_1': '18.0', 'string_2': '26.0', 'string_3': '34.0', 'string_4': '42.0', 'string_5': '50.0', 'string_6': '58.0', 'string_7': '66.0', 'string_8': '74.0', 'string_9': '82.0', 'last_0': datetime.datetime(2017, 8, 26, 2, 47, 10), 'last_1': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_2': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_3': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_4': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_5': datetime.datetime(2017, 9, 20, 2, 47, 10), 'last_6': datetime.datetime(2017, 6, 25, 2, 47, 10), 'last_7': datetime.datetime(2017, 6, 26, 2, 47, 10), 'last_8': datetime.datetime(2017, 7, 26, 2, 47, 10), 'last_9': datetime.datetime(2017, 7, 28, 2, 47, 10)}
+
+
+update sox_jikkyolized set max_value=90.0,min_value=10.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=10,span_0=2,span_1=1,span_2=1,span_3=0,span_4=0,span_5=1,span_6=2,span_7=1,span_8=1,span_9=1,string_0='10.0',string_1='18.0',string_2='26.0',string_3='34.0',string_4='42.0',string_5='50.0',string_6='58.0',string_7='66.0',string_8='74.0',string_9='82.0',last_0='2017-08-26 02:47:10',last_1='2016-02-26 02:47:10',last_2='2016-04-26 02:47:10',last_3='2016-04-26 02:47:10',last_4='2016-04-26 02:47:10',last_5='2017-09-20 02:47:10',last_6='2017-09-27 02:47:10',last_7='2017-06-26 02:47:10',last_8='2017-07-26 02:47:10',last_9='2017-07-28 02:47:10' where group_id='テストデータグループ' and item_id='テストデータアイテム '
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=70 timing=2017-09-28 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=70 timing=2017-09-28 02:47:10
+
+select * from sox_jikkyolized where item_id='テストデータアイテム' and group_id='テストデータグループ';
+
+
+{'item_id': 'テストデータアイテム ', 'group_id': 'テストデータグループ', 'max_value': 90.0, 'min_value': 10.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 10, 'span_0': 2, 'span_1': 1, 'span_2': 1, 'span_3': 0, 'span_4': 0, 'span_5': 1, 'span_6': 2, 'span_7': 1, 'span_8': 1, 'span_9': 1, 'string_0': '10.0', 'string_1': '18.0', 'string_2': '26.0', 'string_3': '34.0', 'string_4': '42.0', 'string_5': '50.0', 'string_6': '58.0', 'string_7': '66.0', 'string_8': '74.0', 'string_9': '82.0', 'last_0': datetime.datetime(2017, 8, 26, 2, 47, 10), 'last_1': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_2': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_3': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_4': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_5': datetime.datetime(2017, 9, 20, 2, 47, 10), 'last_6': datetime.datetime(2017, 9, 27, 2, 47, 10), 'last_7': datetime.datetime(2017, 6, 26, 2, 47, 10), 'last_8': datetime.datetime(2017, 7, 26, 2, 47, 10), 'last_9': datetime.datetime(2017, 7, 28, 2, 47, 10)}
+
+
+update sox_jikkyolized set max_value=90.0,min_value=10.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=11,span_0=2,span_1=1,span_2=1,span_3=0,span_4=0,span_5=1,span_6=2,span_7=2,span_8=1,span_9=1,string_0='10.0',string_1='18.0',string_2='26.0',string_3='34.0',string_4='42.0',string_5='50.0',string_6='58.0',string_7='66.0',string_8='74.0',string_9='82.0',last_0='2017-08-26 02:47:10',last_1='2016-02-26 02:47:10',last_2='2016-04-26 02:47:10',last_3='2016-04-26 02:47:10',last_4='2016-04-26 02:47:10',last_5='2017-09-20 02:47:10',last_6='2017-09-27 02:47:10',last_7='2017-09-28 02:47:10',last_8='2017-07-26 02:47:10',last_9='2017-07-28 02:47:10' where group_id='テストデータグループ' and item_id='テストデータアイテム '
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=80 timing=2017-09-29 02:47:10
+group_id=テストデータグループ item_id=テストデータアイテム raw_value=80 timing=2017-09-29 02:47:10
+
+select * from sox_jikkyolized where item_id='テストデータアイテム' and group_id='テストデータグループ';
+
+
+{'item_id': 'テストデータアイテム ', 'group_id': 'テストデータグループ', 'max_value': 90.0, 'min_value': 10.0, 'item_kind': 'int', 'group_relation': None, 'item_relation': None, 'others': 0, 'total_number': 11, 'span_0': 2, 'span_1': 1, 'span_2': 1, 'span_3': 0, 'span_4': 0, 'span_5': 1, 'span_6': 2, 'span_7': 2, 'span_8': 1, 'span_9': 1, 'string_0': '10.0', 'string_1': '18.0', 'string_2': '26.0', 'string_3': '34.0', 'string_4': '42.0', 'string_5': '50.0', 'string_6': '58.0', 'string_7': '66.0', 'string_8': '74.0', 'string_9': '82.0', 'last_0': datetime.datetime(2017, 8, 26, 2, 47, 10), 'last_1': datetime.datetime(2016, 2, 26, 2, 47, 10), 'last_2': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_3': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_4': datetime.datetime(2016, 4, 26, 2, 47, 10), 'last_5': datetime.datetime(2017, 9, 20, 2, 47, 10), 'last_6': datetime.datetime(2017, 9, 27, 2, 47, 10), 'last_7': datetime.datetime(2017, 9, 28, 2, 47, 10), 'last_8': datetime.datetime(2017, 7, 26, 2, 47, 10), 'last_9': datetime.datetime(2017, 7, 28, 2, 47, 10)}
+
+
+update sox_jikkyolized set max_value=90.0,min_value=10.0,item_kind='int',group_relation=null,item_relation=null,others=0,total_number=12,span_0=2,span_1=1,span_2=1,span_3=0,span_4=0,span_5=1,span_6=2,span_7=2,span_8=2,span_9=1,string_0='10.0',string_1='18.0',string_2='26.0',string_3='34.0',string_4='42.0',string_5='50.0',string_6='58.0',string_7='66.0',string_8='74.0',string_9='82.0',last_0='2017-08-26 02:47:10',last_1='2016-02-26 02:47:10',last_2='2016-04-26 02:47:10',last_3='2016-04-26 02:47:10',last_4='2016-04-26 02:47:10',last_5='2017-09-20 02:47:10',last_6='2017-09-27 02:47:10',last_7='2017-09-28 02:47:10',last_8='2017-09-29 02:47:10',last_9='2017-07-28 02:47:10' where group_id='テストデータグループ' and item_id='テストデータアイテム '

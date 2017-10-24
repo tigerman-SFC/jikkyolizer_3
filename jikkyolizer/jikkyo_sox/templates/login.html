@@ -1,0 +1,51 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static "admin/css/base.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "admin/css/login.css" %}">
+    </head>
+    <body class=" login" data-admin-utc-offset="32400">
+{% block title_html %}
+{% endblock %}
+{% block article_content %}
+    {% if user.is_authenticated %}
+    	<!-- Authenticated. -->
+        <h1>You are authenticated</h1>
+    {% else %}
+    	<!-- Not authenticated -->
+        <div id="container">
+
+    
+        <!-- Header -->
+        <div id="header">
+        <div id="branding">
+        <h1 id="site-name">Jikkyolizer Login</a></h1>
+        <h2 id="attention">{{ attention }}</h2>
+        </div>
+        </div>
+    <!-- END Header -->
+        <div id="content" class="colM">
+        <div id="content-main">
+        <form method="post" action="{{ user_login }}" id="login-form">
+        {% csrf_token %}
+        <div class="form-row">
+            <label class="required" for="id_username">Username</label> {{ form.username }}
+        </div>
+        <div class="form-row">
+            <label class="required" for="id_username">Password</label> {{ form.password }}
+        </div>
+        <div class="submit-row">
+        <input type="submit" class="button" value="Login" />
+        </div>
+        </form>
+        </div> 
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+    <div id="footer"></div>
+    </div>
+    {% endif %}
+{% endblock %}
+</body>
+</html>

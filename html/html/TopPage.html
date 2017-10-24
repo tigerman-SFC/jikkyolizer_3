@@ -1,0 +1,97 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Transportation System</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script data-main="js/main.js" src="{% static "qs.js" %}"></script>
+	<!--<script data-main="js/main.js" src="{% static "require.js" %}"></script>-->
+	<script type="text/javascript" src="{% static "vue.js" %}"></script>
+	<script type="text/javascript" src="{% static "TopPage.js" %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static "UserPage.css" %}">
+</head>
+<body>
+    <div id="main">
+        <div id="Toptitle">
+        <h1>Top Page</h1>
+        <h3>{{ username.username }}</h3><h3>{{Months.DisplayYear}}-{{Months.DisplayMonthName}}</h3>
+        </div>
+    
+    <a class="prev" href="{{ Months.ControlUrl }}year={{ Months.PreviousMonthYear }}&month={{ Months.PreviousMonthMonth }}">{{ Months.PreviousMonthName }}</a>
+    <a class="next" href="{{ Months.ControlUrl }}year={{ Months.NextMonthYear }}&month={{ Months.NextMonthMonth }}">{{ Months.NextMonthName }}</a>
+    <br><a class="next" href="{{ Months.ControlOtherUrl }}../logout">logout</a>
+
+    <form action="{{ Months.ControlOtherUrl }}../InsertPage/" method="post">
+    {% csrf_token %}
+    <input type="hidden" name="Year" value="{{Months.DisplayYear}}">
+    <input type="hidden" name="Month" value="{{Months.DisplayMonth}}">
+    <input type="submit" value="Insert New Data">
+    <!--<input type="image" src="{% static "NewInsert.png" %}" alt="Insert New Data" width="100" height="100">-->
+    </form>
+    <form action="{{ Months.ControlOtherUrl }}../DownloadCsv/" method="post">
+    <input type="hidden" name="year" value="{{ Months.DisplayYear }}">
+    <input type="hidden" name="month" value="{{ Months.DisplayMonth }}">
+    {% csrf_token %}
+    <input type="submit" value="Download CSV File">
+    </form>
+    {% ifequal user.is_superuser 1 %}
+    <form action="{{ Months.ControlOtherUrl }}../AdminTopPage/" method="post">
+    {% csrf_token %}
+    <input type="submit" value="Admin Page">
+    </form>
+    {% endifequal %}
+    <form action="{{ Months.ControlOtherUrl }}../EditOrDelete/" method="post">
+    <input type="hidden" name="Year" value="{{Months.DisplayYear}}">
+    <input type="hidden" name="Month" value="{{Months.DisplayMonth}}">
+    {% csrf_token %}
+	{% for datum in DisplayData %}
+	        <script type="text/javascript">
+			<!--
+				init_past_data({{ datum.id }});
+			// -->
+			</script>
+	{% endfor %}
+	<div class='my-ajax'>
+      <table border = "1" style="table-layout: fixed;" width="900">
+        <tr>
+            <td class="target"><center>Target</center></td>
+            <td class="used_at"><center>used at</center></td>
+            <td class="departure_line"><center>departure line</center></td>
+            <td class="departure_station"><center>departure station</center></td>
+            <td class="arrival_line"><center>arrival line</center></td>
+            <td class="arrival_station"><center>arrival station</center></td>
+            <td class="cost"><center>cost</center></td>
+            <td class="edit"><center>edit</center></td>
+            <td class="delete"><center>delete</center></td></tr>
+          {% for datum in DisplayData %}
+              <!--<div class='past_transportation{{ datum.id }}' v-if='this.seen_past[{{ datum.id }}]'>-->
+			  <tr class='past_transportation{{ datum.id }}' v-if='seen_past[{{ datum.id }}] | changing<-1' v-bind:name='seen_past[{{ datum.id }}]'>
+              <td class="target"><nobr><div class="content_target">{{ datum.target }}</div></nobr></td>
+              <td class="used_at"><nobr><div class="content_used_at">{{ datum.used_at.month }}/{{ datum.used_at.day }}/{{ datum.used_at.year }}</div></nobr></td>
+              <td class="departure_line"><nobr><div class="content_departure_line">{{ datum.departure_line }}</div></nobr></td>
+              <td class="departure_station"><nobr><div class="content_departure_station">{{ datum.departure_station }}</div></nobr></td>
+              <td class="arrival_line"><nobr><div class="content_arrival_line">{{ datum.arrival_line }}</div></nobr></td>
+              <td class="arrival_station"><nobr><div class="content_arrival_station">{{ datum.arrival_station }}</div></nobr></td>
+              <td class="cost"><nobr><div class="content_cost">{{ datum.cost }}</div></nobr></td>
+              <!--<td class="edit"><nobr><div class="content_edit"><center><input type="submit" name="Edit" value="{{ datum.id }}" style="text-indent:-9999px;"></div></nobr></center></td>-->
+			  <td class="delete"><nobr><center><button name="Edit" value="{{ datum.id }}">Edit</button></center></td>
+              <!--<td class="delete"><nobr><div class="content_delete"><center><input type="submit" name="Delete" value="{{ datum.id }}" onClick="delete_history()" style="text-indent:-9999px;"></div></nobr></center></td>-->
+			  <td class="delete"><nobr><button v-on:click.stop="delete_history({{ datum.id }})">Delete</button></td>
+			  <!--</div>-->
+          {% endfor %}
+          <tr><td>Total</td><td></td><td></td><td></td><td></td><td></td><td style="text-align:right">{{ TotalCost }}</td><td></td><td></td>
+        </tr>
+    </form>
+	</table>
+	<div id='test_js'>{{show_data}}</div>
+    </div>
+	<script type="text/javascript">
+	     <!--
+	          init_past();
+	     // -->
+	</script>
+	</div>
+</body>
+</html>

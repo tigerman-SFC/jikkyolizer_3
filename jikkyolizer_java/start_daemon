@@ -1,0 +1,2 @@
+#!/bin/bash
+/home/jikkyolizer/test_java/jsvc -home /usr/lib/jvm/java-8-openjdk-amd64 -cp /home/jikkyolizer/jikkyolizer_java/sox -user root -outfile /home/jikkyolizer/jikkyolizer_java/log/daemon.log -errfile /home/jikkyolizer/jikkyolizer_java/log/daemon.error -pidfile /home/jikkyolizer/jikkyolizer_java/log/daemon.pid example.TestDaemon

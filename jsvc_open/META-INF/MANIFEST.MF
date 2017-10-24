@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: mturk
+Build-Jdk: 1.7.0_09-icedtea
+Specification-Title: Commons Daemon
+Specification-Version: 1.0.15
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: Commons Daemon
+Implementation-Version: 1.0.15
+Implementation-Vendor-Id: commons-daemon
+Implementation-Vendor: The Apache Software Foundation
+
